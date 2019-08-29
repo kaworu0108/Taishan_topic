@@ -1,0 +1,136 @@
+body {
+
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+header {
+  margin-top: 20px;
+  background: #5A65F5;
+}
+
+/* 背景顏色區 */
+.bg-in1 {
+  background: url("../img/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.bg-in2 {
+  background: linear-gradient(#FFF, #7FD8FA);
+}
+
+/* fontclr */
+
+.lingtblue {
+  color: #5A65F5;
+
+}
+
+/* other */
+.index1_h {
+  height: 850px;
+  max-width: 100%;
+}
+.index2_h {
+  height: 950px;
+  max-width: 100%;
+}
+
+.indexbox {
+  width: 480px;
+  height: 197px;
+  background: RGB(255, 255, 255, 0.9);
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  box-sizing: border-box;
+}
+
+.textbox_index h5,
+p {
+  margin: 0;
+}
+
+.textbox_index p {
+  text-align: right;
+}
+/* P2 */
+
+.title_in_mid {
+  font-size: 36px;
+  color: #53599A;
+}
+
+.title_in_mid2 {
+  font-size: 24px;
+  color: #53599A;
+margin-left: 32px;
+}
+
+.inpic_size {
+  width: 130px;
+  height: 120px;
+}
+
+/* BS修改 */
+.card-header {
+  border-radius: 5px;
+  background: linear-gradient(to right, #F6CD00, #FFA200);
+  color: #FFF;
+  text-align: center;
+}
+
+
+
+ul.nav-item {
+
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.nav-item a {
+  display: inline-block;
+  position: relative;
+  padding-bottom: 0px;
+  transition: color 0.35s ease;
+}
+
+.nav-item a:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  transition: width 0s ease, background 0.35s ease;
+}
+
+.nav-item a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #F6CD00;
+  transition: width 0.35s ease;
+}
+
+.nav-item a:hover:before {
+  width: 100%;
+  background: #F6CD00;
+  transition: width .35s ease;
+}
+
+.nav-item a:hover:after {
+  width: 100%;
+  background: transparent;
+  transition: all 0s ease;
+}
