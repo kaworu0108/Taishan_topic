@@ -4,7 +4,7 @@ body {
 }
 
 header {
-  margin-top: 20px;
+  
   background: #5A65F5;
 }
 
@@ -20,6 +20,10 @@ header {
 .bg-in2 {
   background: linear-gradient(#FFF, #7FD8FA);
 }
+.bg-in3{
+  background: linear-gradient(#7FD8FA, #207EC5);
+}
+
 
 /* fontclr */
 
@@ -60,20 +64,36 @@ p {
 
 .title_in_mid {
   font-size: 36px;
-  color: #53599A;
+  color: #fff;
+  background: #56BCC7;
 }
 
 .title_in_mid2 {
-  font-size: 24px;
+  font-size: 18px;
   color: #53599A;
-margin-left: 32px;
+
 }
 
 .inpic_size {
-  width: 130px;
-  height: 120px;
+  width: 350px;
+  height: 300px;
+  border-radius: 20px;
 }
 
+.bg-in2-size{
+  width: 80vw;
+  height: 70vh;
+  background: #FFA200;
+}
+/* P3 */
+.text-br{
+  border: 1px solid #ccc;
+  border-radius: 50px;
+}
+.showsize{
+  width: 350px;
+  height: 450px;
+}
 /* BS修改 */
 .card-header {
   border-radius: 5px;
