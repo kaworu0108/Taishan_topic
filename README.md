@@ -4,3 +4,4 @@
 * 預期提供後臺讓使用者上新特展消息
 
 >0829-index 活動節目done
+>0902-index 除白底OK active start
