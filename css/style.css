@@ -1,11 +1,9 @@
 body {
-
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
 }
 
 header {
-  
-  background: #5A65F5;
+  background: #5290FD;
 }
 
 /* 背景顏色區 */
@@ -18,27 +16,37 @@ header {
 }
 
 .bg-in2 {
-  background: linear-gradient(#FFF, #7FD8FA);
+  background: linear-gradient(#fff, #7fd8fa);
 }
-.bg-in3{
-  background: linear-gradient(#7FD8FA, #207EC5);
+.bg-in3 {
+  background: linear-gradient(#7fd8fa, #207ec5);
 }
-
-
+.bg-in4{
+  
+  /* background:linear-gradient(#207ec5, #2C5DB2); */
+ background-image: url('../img/bg2.png'),linear-gradient( #207ec5, rgb(12, 8, 68)) ;
+background-size: contain, contain;
+background-position: bottom, bottom;
+background-repeat: no-repeat, no-repeat;
+}
+.bg-footer{
+  background: rgb(12, 8, 68);
+  /* background: #331D0E; */
+}
 /* fontclr */
-
 .lingtblue {
-  color: #5A65F5;
-
+  color: #5a65f5;
+}
+.pgray{
+  color: #707070;
 }
 
+.pgreen{
+  color:#56BCC7;
+}
 /* other */
 .index1_h {
   height: 850px;
-  max-width: 100%;
-}
-.index2_h {
-  height: 950px;
   max-width: 100%;
 }
 
@@ -51,7 +59,9 @@ header {
   margin-right: 50px;
   box-sizing: border-box;
 }
-
+.hrnew{
+   border-top: 2px dashed #F6B500;
+}
 .textbox_index h5,
 p {
   margin: 0;
@@ -61,51 +71,84 @@ p {
   text-align: right;
 }
 /* P2 */
-
+/* 標題字 */
 .title_in_mid {
   font-size: 36px;
   color: #fff;
-  background: #56BCC7;
+  background: #56bcc7;
 }
 
 .title_in_mid2 {
   font-size: 18px;
-  color: #53599A;
-
+  color: #53599a;
 }
-
+.title_in_mid4 {
+  font-size: 28px;
+  color: #53599a;
+}
+.title_in_mid3{
+  font-size: 22px;
+  color: #fff;
+  background: #56bcc7;
+}
 .inpic_size {
-  width: 350px;
-  height: 300px;
+  /* 第二頁活動圖 */
+  width: 400px;
+  height: 350px;
   border-radius: 20px;
 }
 
-.bg-in2-size{
-  width: 80vw;
-  height: 70vh;
-  background: #FFA200;
-}
 /* P3 */
-.text-br{
+.text-br {
   border: 1px solid #ccc;
   border-radius: 50px;
 }
-.showsize{
+.inpic3_size {
   width: 350px;
   height: 450px;
+  border-radius: 20px;
 }
+
+/* P4 */
+
+.inpic4_size{
+  width: 350px;
+  height: 250px;
+   border-radius: 20px;
+}
+.inpic4_sea{
+  position: absolute;
+  top:-400px;
+}
+
+/* footer */
+
+.f_icon{
+width: 100px;
+height: 100px;
+}
+
+/* active */
+
+/* 背景色 */
+.bg-gray{
+  background:rgb(180,177,177,0.2);
+}
+
+.aimg_size{
+width: 90%;
+}
+
+
 /* BS修改 */
 .card-header {
   border-radius: 5px;
-  background: linear-gradient(to right, #F6CD00, #FFA200);
-  color: #FFF;
+  background: linear-gradient(to right, #f6cd00, #ffa200);
+  color: #fff;
   text-align: center;
 }
 
-
-
 ul.nav-item {
-
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -121,7 +164,7 @@ ul.nav-item {
 }
 
 .nav-item a:before {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   left: 0;
@@ -132,25 +175,51 @@ ul.nav-item {
 }
 
 .nav-item a:after {
-  content: '';
+  content: "";
   display: block;
   position: absolute;
   right: 0;
   bottom: 0;
   height: 3px;
   width: 0;
-  background: #F6CD00;
+  background: #f6cd00;
   transition: width 0.35s ease;
 }
 
 .nav-item a:hover:before {
   width: 100%;
-  background: #F6CD00;
-  transition: width .35s ease;
+  background: #f6cd00;
+  transition: width 0.35s ease;
 }
 
 .nav-item a:hover:after {
   width: 100%;
   background: transparent;
   transition: all 0s ease;
+}
+
+.col-lg-4 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.container-fluid {
+  margin: 0 auto;
+  height: 100%;
+  padding: 20px 0;
+  padding-bottom: 100px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  margin-bottom: 70px;
+  padding: 20px 0;
+  padding-bottom: 100px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.rounded {
+  border-radius: 20px !important;
 }
