@@ -5,6 +5,12 @@ body {
 header {
   background: #5290FD;
 }
+/* @media區域 */
+@media (max-width: 576px) {
+  .boxm85 {
+    width: 85% !important;
+    margin: auto;
+  }}
 
 /* 背景顏色區 */
 .bg-in1 {
@@ -12,8 +18,8 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  max-width: 100%;
-}
+  max-width: 100% ;
+  }
 
 .bg-in2 {
   background: linear-gradient(#fff, #7fd8fa);
@@ -23,18 +29,26 @@ header {
 }
 .bg-in4{
   
-  /* background:linear-gradient(#207ec5, #2C5DB2); */
- background-image: url('../img/bg2.png'),linear-gradient( #207ec5, rgb(12, 8, 68)) ;
+/* background:linear-gradient(#207ec5, #2C5DB2); */
+background-image: url('../img/bg3.png'),linear-gradient( #207ec5, rgb(12, 8, 68)) ;
 background-size: contain, contain;
 background-position: bottom, bottom;
 background-repeat: no-repeat, no-repeat;
 }
 .bg-footer{
-  background: rgb(12, 8, 68);
+  background: #0c0844;
   /* background: #331D0E; */
 }
-/* fontclr */
-.lingtblue {
+.bg-gray{
+  background:rgb(180,177,177,0.2);
+}
+
+.bg-fff{
+  background:rgba(255, 255, 255, 0.7);
+
+}
+/* 文字顏色 */
+.plblue {
   color: #5a65f5;
 }
 .pgray{
@@ -44,33 +58,18 @@ background-repeat: no-repeat, no-repeat;
 .pgreen{
   color:#56BCC7;
 }
-/* other */
-.index1_h {
-  height: 850px;
-  max-width: 100%;
+.pyellow{
+  color:#F6B500;
 }
-
-.indexbox {
-  width: 480px;
-  height: 197px;
-  background: RGB(255, 255, 255, 0.9);
-  border-radius: 10px;
-  margin-bottom: 60px;
-  margin-right: 50px;
-  box-sizing: border-box;
+.pblue{
+  color:#006FFF;
 }
-.hrnew{
-   border-top: 2px dashed #F6B500;
+.pmblue{
+  color:#3C3868;
 }
-.textbox_index h5,
-p {
-  margin: 0;
+.pmblue2{
+  color:#53599A;
 }
-
-.textbox_index p {
-  text-align: right;
-}
-/* P2 */
 /* 標題字 */
 .title_in_mid {
   font-size: 36px;
@@ -91,6 +90,81 @@ p {
   color: #fff;
   background: #56bcc7;
 }
+.title_mid5{
+  font-size: 24px;
+  color:#5A65F5;
+  }
+.title_mid6{
+  font-size:20px;
+  color:#707070;
+}
+
+/* 按鈕顏色 */
+
+.bth-B{
+  background: linear-gradient(to right,#9CC6F5,#3E69F6);
+  color: #fff;
+  border-color: #9CC6F5;
+  width: 150px;
+}
+.btn:hover {
+  color: #207ec5;
+  text-decoration: none;
+  background: RGB(255, 255, 255, 0.5) !important;
+}
+
+/* other */
+.index1_h {
+  height: 850px;
+  max-width: 100%;
+}
+
+.indexbox {
+  width: 480px;
+  height: 197px;
+  background: RGB(255, 255, 255, 0.9);
+  border-radius: 10px;
+  margin-bottom: 60px;
+  margin-right: 50px;
+  box-sizing: border-box;
+}
+.hrnew{
+   border-top: 2px dashed #F6B500;
+}
+
+.bor-size{
+  border-left-width: medium !important;
+ }
+
+ .border-lblue {
+  border-color: #5A65F5!important;
+}
+
+.border-gray{
+   border: 1px solid #70707077 !important;
+}
+.textbox_index h5,
+p {
+  margin: 0;
+}
+
+.textbox_index p {
+  text-align: right;
+}
+/* footer */
+.foottop{
+  padding-top: 250px;
+
+}
+.footb{
+   padding-bottom: 100px;
+}
+.footimg{
+  padding-left: 15px;
+}
+
+/* P2 */
+
 .inpic_size {
   /* 第二頁活動圖 */
   width: 400px;
@@ -130,19 +204,34 @@ height: 100px;
 
 /* active */
 
-/* 背景色 */
-.bg-gray{
-  background:rgb(180,177,177,0.2);
-}
-
 .aimg_size{
 width: 90%;
 }
 
+/* show */
+.spic_size{
+  width: 250px;
+  height: 365px;
+}
 
+/* zoneT */
+.zpic_size{
+  width: 1140px;
+  height: 550px;
+}
+.zpic_sizes{
+  width: 400px;
+  height: 300px;
+}
+
+/* service */
+
+.shover:hover{
+transform:rotate(10deg);
+}
 /* BS修改 */
 .card-header {
-  border-radius: 5px;
+  border-radius: 5px !important;
   background: linear-gradient(to right, #f6cd00, #ffa200);
   color: #fff;
   text-align: center;
@@ -223,3 +312,7 @@ ul.nav-item {
 .rounded {
   border-radius: 20px !important;
 }
+.rounded2{
+  border-radius: 10px !important;
+}
+

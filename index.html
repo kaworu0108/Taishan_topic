@@ -8,7 +8,7 @@
   <!-- google font 中文-->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <!-- bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- ico -->
   <link rel="icon" href="img/LOGOico.ico" type="image/x-icon" />
   <link rel="shortcut icon" href="img/LOGOico.ico" type="image/x-icon" />
@@ -22,7 +22,7 @@
 <body>
   <header>
     <nav class="navbar navbar-expand-lg m-0 p-0 navbar-light shadow">
-      <a class="navbar-brand text-white ml-5 my-1" href="#" style="font-size: 38px">
+      <a class="navbar-brand text-white ml-5 my-1" href="#" style="font-size: 28px">
         <img src="img/LOGO2.png" alt="國立海洋生物博物館LOGO" width="35px"> 國立海洋生物博物館</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,21 +30,21 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mr-5">
+        <ul class="navbar-nav ml-auto mr-5" style="font-size: 18px">
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="active.html">活動表演</a>
+            <a class="nav-link text-white" href="active.html">活動表演</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="#">特展資訊</a>
+            <a class="nav-link text-white" href="show.html">特展資訊</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="#">展區介紹</a>
+            <a class="nav-link text-white" href="zone.html">展區介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="#">參觀服務</a>
+            <a class="nav-link text-white" href="service.html">參觀服務</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="#">交通指南</a>
+            <a class="nav-link text-white" href="getting.html">交通指南</a>
           </li>
         </ul>
 
@@ -71,7 +71,7 @@
           <div class="card-body d-flex justify-content-center align-items-center flex-column">
             <div class="textbox_index">
               <h5 class="h3 text-center">全票 450 元/優待票 250元</h5>
-              <p class="lingtblue">詳細資訊</p>
+              <p class="plblue">詳細資訊</p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
 
     </div>
   </div>
-  <!-- 2 -->
+  <!-- 2 活動表演-->
   <div class="container-fluid bg-in2">
     <div class="row">
       <div class="col d-flex align-items-center justify-content-center">
@@ -119,7 +119,7 @@
   </div>
   </div>
 
-  <!-- 3 -->
+  <!-- 3 特展資訊-->
   <div class="container-fluid bg-in3">
     <div class="row">
       <div class="col d-flex align-items-center justify-content-center">
@@ -159,7 +159,7 @@
       </div>
     </div>
   </div>
-  <!-- 4 -->
+  <!-- 4 展區介紹 -->
   <div class="container-fluid bg-in4" style="padding-bottom: 300px">
 
     <div class="row flex-column w-75 m-auto">
@@ -167,113 +167,133 @@
       <div class="col text-right mb-2 text-white"><span>看完整地圖</span></div>
       <!-- 4-1 -->
       <div class="col bg-white rounded mb-4">
-        <div class="media px-4 py-4">
-          <img src="img/zone/台灣水域館.jpg" class="mr-3 inpic4_size" alt="...">
-          <div class="media-body">
-            <h4 class="mt-0">台灣水域館</h4>
-            <p class="pgray">完整介紹海洋哺乳類的生活、生存、生殖等生態行為，以及其所面對的環境問題與生存壓力。此處展示白鯨，透過近距離的接觸，來真實感受海洋哺乳動物。</p>
+        <div class="media px-4 py-4 row">
+          <div class="col-md-4">
+            <img src="img/zone/台灣水域館.jpg" class="mr-3 inpic4_size img-fluid" alt="..."></div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <h4 class="mt-0">台灣水域館</h4>
+              <p class="pgray">完整介紹海洋哺乳類的生活、生存、生殖等生態行為，以及其所面對的環境問題與生存壓力。此處展示白鯨，透過近距離的接觸，來真實感受海洋哺乳動物。</p>
+            </div>
           </div>
         </div>
       </div>
       <!-- 4-2 -->
       <div class="col bg-white rounded mb-4">
-        <div class="media px-4 py-4">
-          <img src="img/zone/珊瑚王國館.jpg" class="mr-3 inpic4_size" alt="...">
-          <div class="media-body">
-            <h4 class="mt-0">珊瑚王國館</h4>
-            <p class="pgray">以珊瑚礁漂潛為故事主軸，藉由逐漸下潛海底所看到的海底生物景觀及沈沒的海上交通工具「沉船」，是如何成為海底生物的樂園。最後，介紹全球努力拯救珊瑚的觀念在告訴遊客珊瑚在海洋中的重要性。
-            </p>
+        <div class="media px-4 py-4 row">
+          <div class="col-md-4"> <img src="img/zone/珊瑚王國館.jpg" class="mr-3 inpic4_size img-fluid" alt="..."></div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <h4 class="mt-0">珊瑚王國館</h4>
+              <p class="pgray">
+                以珊瑚礁漂潛為故事主軸，藉由逐漸下潛海底所看到的海底生物景觀及沈沒的海上交通工具「沉船」，是如何成為海底生物的樂園。最後，介紹全球努力拯救珊瑚的觀念在告訴遊客珊瑚在海洋中的重要性。
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <!-- 4-3 -->
       <div class="col bg-white rounded mb-4">
-        <div class="media px-4 py-4">
-          <img src="img/zone/世界水域館.jpg" class="mr-3 inpic4_size" alt="...">
-          <div class="media-body">
-            <h4 class="mt-0">世界水域館</h4>
-            <p class="pgray">
-              以時空探查艇遨遊時空及各海域為故事主軸，藉由即時運算之虛擬科技，配合3D或2D的成像方式，重新呈現無法到達或難以到達之水域。並透過展示手法的運用，讓遊客穿梭於虛擬與真實之間，感受遠古時期的海洋、巨大的海藻森林，深不可測的深海水域及寒冷的極地水域。
-            </p>
+        <div class="media px-4 py-4 row">
+          <div class="col-md-4">
+            <img src="img/zone/世界水域館.jpg" class="mr-3 inpic4_size img-fluid" alt="..."></div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <h4 class="mt-0">世界水域館</h4>
+              <p class="pgray">
+                以時空探查艇遨遊時空及各海域為故事主軸，藉由即時運算之虛擬科技，配合3D或2D的成像方式，重新呈現無法到達或難以到達之水域。並透過展示手法的運用，讓遊客穿梭於虛擬與真實之間，感受遠古時期的海洋、巨大的海藻森林，深不可測的深海水域及寒冷的極地水域。
+              </p>
+            </div>
           </div>
         </div>
       </div>
       <!-- 4-4 -->
       <div class="col bg-white rounded mb-4">
-        <div class="media px-4 py-4">
-          <img src="img/zone/鯨典館.jpg" class="mr-3 inpic4_size" alt="...">
-          <div class="media-body">
-            <h4 class="mt-0">鯨典展示館</h4>
-            <p class="pgray">
-              經濟部能源局跟國立海洋生物博物館合作，將原本的濱海管理站，搖身一變成為了使用太陽能發電技術的光電經典館，利用恆春地區日照良好、環境空曠且遮蔽較少的特點，將南台灣熱情的陽光轉變成能源，供給鯨典館使用。</p>
+        <div class="media px-4 py-4 row">
+          <div class="col-md-4"><img src="img/zone/鯨典館.jpg" class="mr-3 inpic4_size img-fluid" alt="..."></div>
+          <div class="col-md-8">
+            <div class="media-body">
+              <h4 class="mt-0">鯨典展示館</h4>
+              <p class="pgray">
+                經濟部能源局跟國立海洋生物博物館合作，將原本的濱海管理站，搖身一變成為了使用太陽能發電技術的光電經典館，利用恆春地區日照良好、環境空曠且遮蔽較少的特點，將南台灣熱情的陽光轉變成能源，供給鯨典館使用。</p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
   <!-- footer -->
-  <footer class="container-fluid bg-footer text-white" style="height: 600px;padding-bottom:0 ">
-    <div class="row w-75 m-auto mb-0" style="height: 600px">
-      <div class="col mt-3">
-        <!-- f1 -->
-        <div class="row flex-column">
-          <div class="col h5"><u>活動表演</u></div>
-          <div class="col">活動節目表</div>
-          <div class="col">活動內容</div>
-        </div>
-      </div>
-      <!-- f2 -->
-      <div class="col mt-3">
-        <div class="row flex-column">
-          <div class="col h5"><u>特展資訊</u></div>
-          <div class="col">現在特展</div>
-          <div class="col">歷史特展</div>
-        </div>
-      </div>
-      <!-- f3 -->
-      <div class="col mt-3">
-        <div class="row flex-column">
-          <div class="col h5"><u>展區介紹</u></div>
-          <div class="col">展區地圖</div>
-          <div class="col">迎賓廣場</div>
-          <div class="col">台灣水域</div>
-          <div class="col">珊瑚王國</div>
-          <div class="col">世界水域</div>
-        </div>
-      </div>
-      <!-- f4 -->
-      <div class="col mt-3">
-        <div class="row flex-column">
-          <div class="col h5"><u>參觀服務</u></div>
-          <div class="col">開放時間</div>
-          <div class="col">展區票價</div>
-          <div class="col">服務項目</div>
-          <div class="col">海生館Q&A</div>
-        </div>
-      </div>
-      <!-- f5 -->
-      <div class="col mt-3">
-        <div class="row flex-column">
-          <div class="col h5"><u>交通指南</u></div>
-          <div class="col">大眾運輸</div>
-          <div class="col">自行開車</div>
-        </div>
-      </div>
-      <!-- copyright & other -->
-      <div class="row flex-column w-100 w-75 d-flex justify-content-center">
-        <div class="media ml-5">
-          <img src="img/LOGO2.png" class="mr-3 f_icon" alt="..." >
-          <div class="media-body">
-            <h5 class="mt-0">國立海洋生物博物館 版權所有 © 2016</h5>
-            <p>泰山職訓中心 專題網頁使用©2019 Minchi Chen</p>
-            <p>地址：94450 屏東縣車城鄉後灣村後灣路2號 (查看地圖)</p>
-            <p>遊客服務電話：(08)882-5678 /   傳真：(08)882-5061 /   公部門電話：(08)882-5001 / 傳真：(08)882-4504</p>
+  <div class="container-fluid bg-footer">
+    <footer class="text-white pb-0 w-75 m-auto">
+
+      <div class="row m-auto mb-0 foottop">
+        <div class="col">
+          <div class="row justify-content-between">
+             <!-- f1 -->
+            <div class="col-auto mt-3">
+             <div class="row flex-column">
+                <div class="col h5"><u>活動表演</u></div>
+                <div class="col">活動節目表</div>
+                <div class="col">活動內容</div>
+              </div>
+            </div>
+            <!-- f2 -->
+            <div class="col-auto mt-3">
+              <div class="row flex-column">
+                <div class="col h5"><u>特展資訊</u></div>
+                <div class="col">現在特展</div>
+                <div class="col">歷史特展</div>
+              </div>
+            </div>
+            <!-- f3 -->
+            <div class="col-auto mt-3">
+              <div class="row flex-column">
+                <div class="col h5"><u>展區介紹</u></div>
+                <div class="col">展區地圖</div>
+                <div class="col">迎賓廣場</div>
+                <div class="col">台灣水域</div>
+                <div class="col">珊瑚王國</div>
+                <div class="col">世界水域</div>
+              </div>
+            </div>
+            <!-- f4 -->
+            <div class="col-auto mt-3">
+              <div class="row flex-column">
+                <div class="col h5"><u>參觀服務</u></div>
+                <div class="col">開放時間</div>
+                <div class="col">展區票價</div>
+                <div class="col">服務項目</div>
+                <div class="col">海生館Q&A</div>
+              </div>
+            </div>
+            <!-- f5 -->
+            <div class="col-auto mt-3 position-relative p-0">
+              <div class="row flex-column">
+                <div class="col h5"><u>交通指南</u></div>
+                <div class="col">大眾運輸</div>
+                <div class="col">自行開車</div>
+              </div>
+            </div>
+          </div>
+          <!-- copyright & other -->
+          <div class="row flex-column w-100 w-75 d-flex justify-content-center foottop footb">
+            <div class="media row flex-lg-row flex-column d-flex align-items-center">
+              <div class="col-12 col-lg-2 d-flex justify-content-center justify-content-lg-start">
+                <img src="img/LOGO2.png" class="mr-3 f_icon footimg" alt="..."></div>
+              <div class="media-body col-12 col-lg-10 d-flex flex-column align-items-center align-items-lg-start">
+                <h5 class="mt-0">國立海洋生物博物館 版權所有 © 2016</h5>
+                <p>泰山職訓中心 專題網頁使用©2019 Minchi Chen
+                  地址：94450 屏東縣車城鄉後灣村後灣路2號 (查看地圖)</p>
+                <p>遊客服務電話：(08)882-5678 / 傳真：(08)882-5061 /
+                  公部門電話：(08)882-5001 / 傳真：(08)882-4504</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </footer>
 
+    </footer>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
