@@ -14,14 +14,58 @@ header {
   .logosmall {
     font-size: 20px !important;
   }
+
+  .front,
+  .back {
+    position: static !important;
+  }
+  .hg {
+    height: 100px !important;
+  }
+  .h576 {
+    height: 50% !important;
+  }
 }
 
 @media (max-width: 320px) {
   .logos320 {
     font-size: 14px;
   }
+  .hg {
+    height: 44px !important;
+  }
 }
 
+@media (max-width: 992px) {
+  .front {
+    position: relative !important;
+  }
+
+  .back {
+    position: relative !important;
+    top: -50% !important;
+    left: 0 !important;
+    z-index: 999 !important;
+    height: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .hg {
+    height: 100px !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hg {
+    height: 300px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .hg {
+    height: 300px !important;
+  }
+}
 /* 背景顏色區 */
 .bg-in1 {
   background: url("../img/bg1.jpg");
@@ -237,11 +281,15 @@ p {
 /* zoneT */
 .zpic_size {
   width: 1140px;
-  height: 550px;
+  height: auto;
 }
 .zpic_sizes {
   width: 400px;
   height: 300px;
+}
+.objuse {
+  object-fit: cover !important;
+  object-position: center center !important;
 }
 
 /* service */
@@ -339,6 +387,37 @@ ul.nav-item {
   border-radius: 20px 20px 0px 0px;
 }
 
-#zone img{
-  object-fit: cover;
+/* 展區卡片翻轉 */
+/* .flip-container {
+	perspective: 1000px;
+} */
+.flipper:hover,
+.flipper.hover {
+  transform: rotateY(180deg);
+}
+
+/* flip speed goes here */
+.flipper {
+  transition: 0.6s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+/* hide back of pane during swap */
+.front,
+.back {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  z-index: 2;
+}
+
+/* back, initially hidden pane */
+.back {
+  transform: rotateY(180deg);
 }
