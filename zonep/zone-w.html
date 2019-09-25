@@ -8,253 +8,203 @@
   <!-- google font 中文-->
   <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC&display=swap" rel="stylesheet">
   <!-- bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="../css/bootstrap.css">
   <!-- ico -->
-  <link rel="icon" href="img/LOGOico.ico" type="image/x-icon" />
-  <link rel="shortcut icon" href="img/LOGOico.ico" type="image/x-icon" />
+  <link rel="icon" href="../img/LOGOico.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="../img/LOGOico.ico" type="image/x-icon" />
   <!-- font Awswesome css-->
-  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="../css/all.css">
   <!-- mycss -->
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!-- wow animate -->
+  <link rel="stylesheet" href="../css/animate.css">
   <title>國立海洋生物博物館</title>
 </head>
+
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg m-0 p-0 navbar-light shadow">
-      <a class="navbar-brand text-white ml-5 my-1" href="index.html" style="font-size: 38px">
-        <img src="img/LOGO2.png" alt="國立海洋生物博物館LOGO" width="35px"> 國立海洋生物博物館</a>
+      <a class="navbar-brand text-white ml-5 my-1 logosmall" href="../index.html" style="font-size: 28px">
+        <img src="../img/LOGO2.png" alt="LOGO" width="35px"> 國立海洋生物博物館</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto mr-5">
+        <ul class="navbar-nav ml-auto mr-5" style="font-size: 18px">
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="active.html">活動表演</a>
+            <a class="nav-link text-white" href="../active.html">活動表演</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="show.html">特展資訊</a>
+            <a class="nav-link text-white" href="../show.html">特展資訊</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="zone.html">展區介紹</a>
+            <a class="nav-link text-white" href="../zone.html">展區介紹</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="service.html">參觀服務</a>
+            <a class="nav-link text-white" href="../service.html">參觀服務</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white h4" href="getting.html">交通指南</a>
+            <a class="nav-link text-white" href="../getting.html">交通指南</a>
           </li>
         </ul>
 
       </div>
     </nav>
   </header>
-
-  <div class="container">
-    <div class="row">
-      <div id="map" class="col-6 title_in_mid4 border-left border-primary bor-size mt-3">海生館展區介紹</div>
-      <div class="col-6 text-right mt-3 d-flex align-items-end justify-content-end">
-        <span class="pyellow"><a href="#map">迎賓廣場 |</a></span>
-        <span class="plblue"><a href="#show-history">台灣水域館 |</a></span>
-        <span class="plblue"><a href="#show-history">珊瑚王國館 |</a></span>
-        <span class="plblue"><a href="#show-history">世界水域館 |</a></span>
-        <span class="plblue"><a href="#show-history">鯨典館</a></span>
-      </div>
-    </div>
-    <!-- 輪播 -->
-    <div id="carouselExampleIndicators" class="carousel slide mt-5" data-ride="carousel">
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-      </ol>
+<!-- content -->
+  <div class="container-fluid p-0">
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/active/大洋池.jpg" class="d-block w-100 zpic_size mx-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5 class="text-left">台灣水域館</h5>
-            <p class="bg-fff pmblue p-2 text-left">
-              <span
-                style="z-index: 999">台灣水域館共介紹入口瀑布、高山溪流、河流中游、河邊溪源、水庫、牡蠣養殖、河口、岩岸潮間帶、觸摸池、兒童陽台、珊瑚礁谷、南灣珊瑚礁、魚的生理、大洋的漂流者、大洋池等各式水域景色，點擊文字即可快速瀏覽該區說明。</span>
+        <div class="carousel-item active" style="height: 60vh">
+          <img src="../img/zone/世界水域/輪播3.jpg" class="d-block w-100 imgw-size img-fluid" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-black1 px-3">
+            <h5>世界水域館</h5>
+            <p class="text-left w-lg-50 psmoremall">
+              以時空探查艇遨遊時空及各海域為故事主軸，藉由即時運算之虛擬科技，配合3D或2D的成像方式，重新呈現無法到達或難以到達之水域。並透過展示手法的運用，讓遊客穿梭於虛擬與真實之間，感受遠古時期的海洋、巨大的海藻森林，深不可測的深海水域及寒冷的極地水域。
             </p>
           </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/zone/台灣水域館3.gif" class="d-block w-100 zpic_size" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/zone/台灣水域館2.jpg" class="d-block w-100 zpic_size" alt="...">
+        <!-- <div class="carousel-item" style="height: 60vh">
+          <img src="../img/zone/世界水域/bg3.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-black1 px-3">
+            <h5>世界水域館</h5>
+            <p class="text-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta quaerat fuga illo iusto ipsum officiis earum! Molestias nihil a accusamus tenetur, magni necessitatibus saepe similique laborum eos at! Doloribus.</p>
+          </div>
+        </div> -->
+        <div class="carousel-item" style="height: 60vh">
+          <img src="../img/zone/世界水域/bg2.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block bg-black1 px-3">
+            <h5>世界水域館</h5>
+            <p class="text-left w-lg-50 psmoremall">
+              以時空探查艇遨遊時空及各海域為故事主軸，藉由即時運算之虛擬科技，配合3D或2D的成像方式，重新呈現無法到達或難以到達之水域。並透過展示手法的運用，讓遊客穿梭於虛擬與真實之間，感受遠古時期的海洋、巨大的海藻森林，深不可測的深海水域及寒冷的極地水域。
+            </p>
+          </div>
         </div>
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
-    <!-- 輪播end -->
+
+
   </div>
-  <!-- header -->
+
+  <!-- item -->
+  <section id="section1">
+    <div class="container mb-5 pb-0 pt-4 px-0" style="height: 20%;"">
+      <div class=" row w-100 mx-auto mx-lg-0 mx-md-0 mx-sm-0">
+      <div id="map" class="col-lg-6 col-12 title_in_mid4 border-left border-primary bor-size mt-3 wow fadeInLeft">
+        展區介紹-世界水域館</div>
+      <div class="col-lg-6 col-12 text-right mt-3 d-flex align-items-end justify-content-end flex-wrap wow fadeInRight">
+        <span class="text-primary" data-toggle="modal" data-target="#exampleModal">展區平面圖 |</span>
+        <span class="pyellow"><a href="../zonep/zone-p.html">迎賓廣場 |</a></span>
+        <span class="plblue"><a href="../zonep/zone-t.html">台灣水域館 |</a></span>
+        <span class="plblue"><a href="../zonep/zone-s.html">珊瑚王國館 |</a></span>
+        <span class="plblue"><a href="../zonep/zone-g.html">鯨典館 |</a></span>
+        <span class="pyellow"><a href="../zone.html"><i class="fas fa-chevron-circle-left mx-1"></i>回到展區介紹</a></span>
+      </div>
+
+    </div>
+    </div>
+  </section>
+  <!-- item end -->
   <!-- content -->
   <div class="container">
-    <div class="row">
-      <div id="show" class="col-6 title_in_mid4 border-left border-primary bor-size">台灣水域館</div>
+    <div class="row flex-column">
+      <div class="col  mb-5">
+        <div class="media bgwzone p-3 border border-teal rounded wow fadeIn d-flex flex-md-column flex-column flex-lg-row align-items-center mb-3">
+          <img src="../img/zone/世界水域/海洋的形成s.jpg" class="mr-3 img-fluid rounded" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">海洋的形成
+            </h5>
+            由火紅的地球形成開始到蘊育生命的藍色海洋為止，以空間意象呈現地球從沒有到充滿生命力的環境轉變。大雨過後火山的活動稍稍緩和，仍有些微岩漿熔岩，較冷卻的地殼泥濘不再，天空偶有閃電雷擊，也稍稍透出藍光，強烈的紫外線筆直射入海中。泥黃的海洋漸漸形成一抹藍綠，呈現海洋形成後開始有藍綠藻釋放氧氣。海水變藍，海中漸漸有多細胞生物出現。
+          </div>
+        </div>
+      </div>
+      <!-- 2 -->
+      <div class="col  mb-5">
+        <div class="media bgwzone p-3 border border-teal rounded wow fadeIn d-flex flex-md-column flex-column flex-lg-row align-items-center mb-3">
 
-    </div>
-    <!-- content -->
-    <div class="row">
-      <div class="col p-0">
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <!-- <img src="img/zone/大洋池.jpg" class="mr-3 zpic_sizes rounded" alt="..."> -->
-          <div class="media-body d-flex">
-            <img src="img/zone/大洋池.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">大洋池</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                這是台灣水域館中最大的生態展示區，它將帶領您進入一個幾見邊際的海洋世界。大洋是指離岸較遠，特別是水深兩百公尺以上的海域，故此區設計水量高達一百萬加侖，展示窗寬十六公尺，高四公尺，讓遊客可在此駐足感受海的壯闊與人的渺小。其中展示鯊魚、魟魚、鰹魚及海鱺、石斑等數十種大型魚類。
-              </p>
-              <br>
-              <p class="text-right">
-                <button type="button" class="btn bth-B" data-toggle="modal" data-target="#modal1">
-                  詳細介紹
-                </button></p>
-            </div>
+          <div class="media-body wow fadeIn">
+            <h5 class="mt-0">深海勘查潛水艇</h5>
+            深海水域入口圓形船艙內上方模擬150度透明玻璃帷幕，遊客可觀賞下潛過程中艙外的海底世界。下潛分為四個深度:海平面丶淺海珊瑚礁丶深海中層區丶深海底層。
+          </div>
+          <img src="../img/zone/世界水域/深海勘查潛水艇s.jpg" class="mr-3 img-fluid rounded" alt="...">
+        </div>
+      </div>
+      <!-- 3 -->
+      <div class="col  mb-5">
+        <div class="media bgwzone p-3 border border-teal rounded wow fadeIn d-flex flex-md-column flex-column flex-lg-row align-items-center mb-3">
+          <img src="../img/zone/世界水域/埃迪卡拉海洋花園s.jpg" class="mr-3 img-fluid rounded" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">埃迪卡拉海洋花園</h5>
+            在五億四千五百萬年前溫暖的淺海砂底，出現一群不知是動物或植物的多細胞生物。身體柔軟、形狀多樣有圓盤、葉狀、分節等。彼此間互不侵犯，呈現祥和的景象。
           </div>
         </div>
-        <!-- 2 -->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <!-- <img src="img/zone/大洋池.jpg" class="mr-3 zpic_sizes rounded" alt="..."> -->
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/入口瀑布.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">入口瀑布</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
+      </div>
+      <!-- 4 -->
+      <div class="col  mb-5">
+        <div class="media bgwzone p-3 border border-teal rounded wow fadeIn d-flex flex-md-column flex-column flex-lg-row align-items-center mb-3">
+
+          <div class="media-body">
+            <h5 class="mt-0">水母隧道</h5>
+            海生館經營團隊-海景世界企業股份有限公司，於水母的飼育繁殖上投入大量的研發經費，數年來與日本、香港、中國等地的海洋館持續進行技術交流，目前已能自行繁殖十餘種的水母種類，是目前國內最成熟也規模最大的水母繁殖基地，除了能提供館內水母展示自給自足，也藉由母企業-南仁湖集團的資源，於2018年底推出以水母為主題的海洋教育推廣列車，走訪南仁湖企業旗下經營的高速公路服務區，以水母的繪本故事搭配活動式水母展示缸，與用路人分享海洋生態的知識，推廣環境保育的重要性。
           </div>
+          <img src="../img/zone/世界水域/水母s.jpg" class="mr-3 img-fluid rounded" alt="...">
         </div>
-        <!-- 3 水庫 -->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <!-- <img src="img/zone/大洋池.jpg" class="mr-3 zpic_sizes rounded" alt="..."> -->
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/水庫.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">水庫</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!-- 4 兒童陽台-->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/兒童陽台.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">兒童陽台</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!-- 5 南珊瑚礁-->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/南灣珊瑚礁.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">南珊瑚礁</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!-- 6 珊瑚礁谷-->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/珊瑚礁谷.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">珊瑚礁谷</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!-- 7 潮間帶-->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/潮間帶.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">潮間帶</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
-          </div>
-        </div>
-        <!-- 8 水母-->
-        <div class="media mt-5 bg-gray p-4 rounded">
-          <div class="media-body d-flex">
-            <img src="img/zone/台灣水域/水母.jpg" class="mr-3 zpic_sizes rounded" alt="...">
-            <div class="col">
-              <h4 class="mt-0">大洋的漂流者</h4>
-              <br>
-              <br>
-              <p class="pgray h5">展區說明：</p>
-              <p class="pgray h5">
-                在大廳的左前方，遊客將被高聳的瀑布吸引進入台灣水域館，由此開始進行「水」的旅行。
-              </p>
-              <br>
-            </div>
+      </div>
+      <!-- 5 -->
+      <div class="col  mb-5">
+        <div class="media bgwzone p-3 border border-teal rounded wow fadeIn d-flex flex-md-column flex-column flex-lg-row align-items-center mb-3">
+          <img src="../img/zone/世界水域/海藻森林s.jpg" class="mr-3 img-fluid rounded" alt="...">
+          <div class="media-body">
+            <h5 class="mt-0">世界海藻森林</h5>
+            由多種大型藻類組成，提供充裕的食物與多樣的棲所，吸引許多生物前來覓食與繁殖，是最具生產力的生態系之一。生物間彼此制衡、相互依賴，形成穩定的生存環境。
           </div>
         </div>
       </div>
     </div>
 
 
+  </div>
+
+  <!-- content -->
+
+  <!-- modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">海生館平面地圖</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body px-4">
+          <p class="pgray mb-4">展區平面圖標示出各展區所在位置，未來會持續增加更優的展區平面圖及無障礙動線服務地圖，提供給各位民眾。</p>
+          <img src="../img/zone/map.jpg"" alt=" 地圖" class="img-fluid mb-5">
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+  <!-- modal end -->
 
 
   <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="../js/jquery-3.4.1.min.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+  <!-- wow -->
+  <script src="../js/wow.js"> </script>
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
