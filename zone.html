@@ -17,13 +17,15 @@
   <!-- mycss -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/zone-style.css">
+     <!-- wow animate -->
+  <link rel="stylesheet" href="css/animate.css">
   <title>國立海洋生物博物館</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg m-0 p-0 navbar-light shadow">
-      <a class="navbar-brand text-white ml-5 my-1" href="index.html" style="font-size: 28px">
+      <a class="navbar-brand text-white ml-5 my-1 logosmall" href="index.html" style="font-size: 28px">
         <img src="img/LOGO2.png" alt="國立海洋生物博物館LOGO" width="35px"> 國立海洋生物博物館</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -53,30 +55,33 @@
     </nav>
   </header>
   <section id="section1">
-    <div class="container mb-5 pb-0 pt-2" style="height: 20%;">
-      <div class="row w-100">
-        <div id="map" class="col-6 title_in_mid4 border-left border-primary bor-size mt-3">海生館展區介紹</div>
-        <div class="col-6 text-right mt-3 d-flex align-items-end justify-content-end">
-          <span class="pyellow"><a href="#map">展區平面圖 |</a></span>
-          <span class="pyellow"><a href="zonep/zone-p.html">迎賓廣場 |</a></span>
-          <span class="plblue"><a href="zonep/zone-t.html">台灣水域館 |</a></span>
-          <span class="plblue"><a href="zonep/zone-s.html">珊瑚王國館 |</a></span>
-          <span class="plblue"><a href="zonep/zone-w.html">世界水域館 |</a></span>
-          <span class="plblue"><a href="zonep/zone-g.html">鯨典館</a></span>
+    <div class="container mb-5 pb-0 pt-4 px-0" style="height: 20%;">
+      <div class="row w-100 mx-auto mx-lg-0 mx-md-0 mx-sm-0">
+          <div id="map" class="col-lg-6 col-12 title_in_mid4 border-left border-primary bor-size mt-3">展區介紹</div>
+          
+          <div class="col-lg-6 col-12 text-right mt-3 d-flex align-items-end justify-content-end flex-wrap">
+            <span class="text-primary" data-toggle="modal" data-target="#exampleModal">展區平面圖|</span>
+            <span class="plblue"><a href="zonep/zone-p.html">迎賓廣場 |</a></span>
+            <span class="plblue"><a href="zonep/zone-t.html">台灣水域館 |</a></span>
+            <span class="plblue"><a href="zonep/zone-s.html">珊瑚王國館 |</a></span>
+            <span class="plblue"><a href="zonep/zone-w.html">世界水域館 |</a></span>
+            <span class="plblue"><a href="zonep/zone-g.html">鯨典館</a></span>
+          </div>
+          
         </div>
       </div>
-    </div>
   </section>
 
   <section id="zone">
-  <div class="container-fluid p-0">
+  <div class="container-fluid p-0 flex-md-column flex-column flex-lg-row wow fadeInLeft">
+    
     <div class="box">
       <a href="zonep/zone-p.html">
       <img src="img/zone/迎賓廣場2.jpg" class="inpic_size" >
-      </a>
+  </a>
       <span>迎賓廣場</span>
     </div>
-    <div class="box">
+    <div class="box ">
       <a href="zonep/zone-t.html">
       <img src="img/zone/台灣水域館3.jpg" class="inpic_size"></a>
       <span>台灣水域館</span>
@@ -100,10 +105,35 @@
   <div class="text-center" style="margin:50px 0; font:normal 14px/24px;">
 
     </section>
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <!-- map modal -->
+
+   <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">海生館平面地圖</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body px-4">
+        <p class="pgray mb-4">展區平面圖標示出各展區所在位置，未來會持續增加更優的展區平面圖及無障礙動線服務地圖，提供給各位民眾。</p>
+        <img src="img/zone/map.jpg"" alt="地圖" class="img-fluid mb-5">
+      </div>
+      
+    </div>
+  </div>
+</div>
+<!-- modal end -->
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+         <!-- wow -->
+  <script src="js/wow.js"> </script>
+<script>
+ new WOW().init();
 
+</script>
 </body>
 
 </html>

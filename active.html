@@ -17,13 +17,17 @@
   <script defer src="JS/all.js"></script>
   <!-- mycss -->
   <link rel="stylesheet" href="css/style.css">
+   <!-- wow -->
+  <script src="js/wow.js"> </script>
+   <!-- wow animate -->
+  <link rel="stylesheet" href="css/animate.css">
   <title>國立海洋生物博物館</title>
 </head>
 
 <body>
   <header>
     <nav class="navbar navbar-expand-lg m-0 p-0 navbar-light shadow">
-      <a class="navbar-brand text-white ml-5 my-1" href="index.html" style="font-size: 28px">
+      <a class="navbar-brand text-white ml-5 my-1 logosmall" href="index.html" style="font-size: 28px">
         <img src="img/LOGO2.png" alt="國立海洋生物博物館LOGO" width="35px"> 國立海洋生物博物館</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,8 +63,8 @@
       
     </div>
     <!-- top menu -->
-    <div class="row mt-5">
-      <div class="col-md-6 col-lg-3 col-6">
+    <div class="row mt-5 wow fadeInLeft">
+      <div class="col-md-6 col-lg-3 col-6 ">
      <a href="public/active_content.html"><img src="img/active/menu/海藻森林.png" alt="" class="img-fluid rounded"></a>
       </div>
       <div class="col-md-6 col-lg-3 col-6">
@@ -94,12 +98,12 @@
     </div>
     <hr>
     <!-- 節目表 -->
-    <div class="row">
+    <div class="row wow fadeInLeft">
       <div class="col text-center title_mid7">活動節目表</div>
     </div>
     <div class="row mt-4 flex-column">
       <div class="col">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 10:00</span>
           </div>
@@ -156,7 +160,7 @@
       </div>
       <!-- 10:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 13:00</span>
           </div>
@@ -183,7 +187,7 @@
       <!-- 10:30end -->
       <!-- 11:00 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 11:00</span>
           </div>
@@ -224,7 +228,7 @@
       <!-- 11:00 end-->
       <!-- 11:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 11:30</span>
           </div>
@@ -251,7 +255,7 @@
       <hr>
       <!--下午 1300-->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 13:00</span>
           </div>
@@ -277,7 +281,7 @@
       <!-- 13:00 end -->
       <!-- 13:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 13:30</span>
           </div>
@@ -317,7 +321,7 @@
       <!-- 13:30 end-->
       <!-- 14:00 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 14:00</span>
           </div>
@@ -343,7 +347,7 @@
       <!-- 14:00 end -->
       <!-- 14:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 14:30</span>
           </div>
@@ -383,7 +387,7 @@
       <!-- 14:30 end -->
       <!-- 15:00 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 15:00</span>
           </div>
@@ -409,7 +413,7 @@
       <!-- 15:00 end -->
       <!-- 15:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 15:30</span>
           </div>
@@ -435,7 +439,7 @@
       <!-- 15:30end -->
       <!-- 16:30 -->
       <div class="col mt-5">
-        <div class="card rounded">
+        <div class="card rounded wow fadeInUp">
           <div class="card-header">
             <span class="pgray">時間 16:30</span>
           </div>
@@ -469,10 +473,12 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-  <script src="js/jquery-3.3.1.slim.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/popper.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
+  <script>
+    new WOW().init();
+  </script>
 </body>
 
 </html>
