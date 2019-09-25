@@ -1,0 +1,29 @@
+
+body {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.bg2{
+  background: url("../img/bg_back.jpg") no-repeat;
+  background-size: cover;
+}
+.bgf{
+  background: rgb(255,255,255,0.6);
+}
+
+/* BS修改區 */
+
+.list-group-item:first-child {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.rounded {
+  border-radius: 10px !important;
+}

@@ -17,14 +17,15 @@
   flex: 1;
   overflow: hidden;
   transition: .5s;
-  margin: 0 2%;
+  margin: 0 1%;
   box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
   line-height: 0;
 }
 
 .box img {
   width: 100%;
-  height: calc(100% - 10vh);
+  /* height: calc(100% - 10vh); */
+  height: 90%;
   -o-object-fit: cover;
      object-fit: cover;
   transition: .5s;
@@ -47,6 +48,3 @@
   width: 100%;
   height: 100%;
 }
-/* .box >a{
-
-} */
